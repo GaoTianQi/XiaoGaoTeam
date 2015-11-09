@@ -9,6 +9,7 @@
 #import "AppDelegate+Category.h"
 #import <AFNetworkActivityIndicatorManager.h>
 #import "MobClick.h"
+#import <MLTransition.h>
 
 #define AppKey @"5633088567e58e62ee001599"
 
@@ -44,6 +45,9 @@
     
 //  友盟统计会默认的关闭系统的崩溃提示,在这里我们将其打开
     [MobClick setLogEnabled:YES];
+    
+//  解决因为使用leftItem导致iOS7自带的右滑返回上一页失效的问题；
+    [MLTransition validatePanPackWithMLTransitionGestureRecognizerType:MLTransitionGestureRecognizerTypeScreenEdgePan];
 }
 
 

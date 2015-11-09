@@ -10,7 +10,7 @@
 
 @class TuWanContentModel,TuWanRelevantModel;
 
-@interface TuWanOthersModel : BaseModel
+@interface TuWanVideoModel : BaseModel
 
 @property (nonatomic, copy) NSString *color;
 

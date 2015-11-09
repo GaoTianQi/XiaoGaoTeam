@@ -11,6 +11,7 @@
 #import "TuWanListCell.h"
 #import "iCarousel.h"
 #import "TuWanHtmlViewController.h"
+#import "TuWanPicViewController.h"
 
 #import "TuWanImageCell.h"
 
@@ -173,6 +174,10 @@ kRemoveCellSeparator;
         TuWanHtmlViewController *vc = [[TuWanHtmlViewController alloc]initWithURL:[self.TuWanVM detailURLForRowInList:indexPath.row]];
         [self.navigationController pushViewController:vc animated:YES];
     }
+    if ([self.TuWanVM isPicInListForRow:indexPath.row]) {
+        TuWanPicViewController *vc = [[TuWanPicViewController alloc]initWithAid:[self.TuWanVM aidInListForRow:indexPath.row]];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
 }
 
 // cell高度设置
@@ -226,6 +231,10 @@ kRemoveCellSeparator;
 {
     if ([self.TuWanVM isHtmlInListForRow:index]) {
         TuWanHtmlViewController *vc = [[TuWanHtmlViewController alloc]initWithURL:[self.TuWanVM detailURLForRowInIndexPic:index]];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    if ([self.TuWanVM isPicInListForRow:index]) {
+        TuWanPicViewController *vc = [[TuWanPicViewController alloc]initWithAid:[self.TuWanVM aidInIndexPicForRow:index]];
         [self.navigationController pushViewController:vc animated:YES];
     }
 }

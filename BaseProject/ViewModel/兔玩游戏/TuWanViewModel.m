@@ -156,5 +156,12 @@
     return [[self modelForArr:self.indexPicArr row:row].type isEqualToString:@"all"];
 }
 
-
+- (NSString *)aidInListForRow:(NSInteger)row
+{
+    return [self modelForArr:self.dataArr row:row].aid;
+}
+- (NSString *)aidInIndexPicForRow:(NSInteger)row
+{
+    return [self modelForArr:self.indexPicArr row:row].aid;
+}
 @end

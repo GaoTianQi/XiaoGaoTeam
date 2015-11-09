@@ -6,9 +6,9 @@
 //  Copyright © 2015年 Tarena. All rights reserved.
 //
 
-#import "TuWanOthersModel.h"
+#import "TuWanVideoModel.h"
 
-@implementation TuWanOthersModel
+@implementation TuWanVideoModel
 
 + (NSDictionary *)objectClassInArray{
     return @{@"content" : [TuWanContentModel class], @"relevant" : [TuWanRelevantModel class]};

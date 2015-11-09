@@ -97,11 +97,19 @@
     }];
 }
 
-+ (id)getTuwanOthersDataOfAid:(NSString *)aid CompletionHandle:(void (^)(NSArray<TuWanOthersModel *> *, NSError *))completionHandle
++ (id)getTuwanOthersDataOfAid:(NSString *)aid CompletionHandle:(void (^)(NSArray<TuWanVideoModel *> *, NSError *))completionHandle
 {
     NSDictionary *params = @{@"aid":aid, kAppId};
     return [TuWanNetManager GET:kTuWanOthersPath parameters:params completionHandler:^(id responseObj, NSError *error) {
-        completionHandle([TuWanOthersModel objectArrayWithKeyValuesArray:responseObj], error);
+        completionHandle([TuWanVideoModel objectArrayWithKeyValuesArray:responseObj], error);
+    }];
+}
+
++ (id)getTuwanPicDataOfAid:(NSString *)aid CompletionHandle:(void (^)(TuWanPicModel *, NSError *))completionHandle
+{
+    NSDictionary *params = @{@"aid":aid, kAppId};
+    return [TuWanNetManager GET:kTuWanOthersPath parameters:params completionHandler:^(id responseObj, NSError *error) {
+        completionHandle([TuWanPicModel objectArrayWithKeyValuesArray:responseObj].firstObject, error);
     }];
 }
 

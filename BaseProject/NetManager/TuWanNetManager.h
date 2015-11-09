@@ -8,7 +8,8 @@
 
 #import "BaseNetManager.h"
 #import "TuWanModel.h"
-#import "TuWanOthersModel.h"
+#import "TuWanVideoModel.h"
+#import "TuWanPicModel.h"
 //只要公用一个解析类的请求，就可以合起来写，只需要使用枚举变量，来决定不同的请求地址即可
 //如果不会 可以参考汽车之家接口
 
@@ -51,6 +52,8 @@ typedef NS_ENUM(NSUInteger, TuWanDataType) {
  *
  *  @return 返回当前请求的任务
  */
-+ (id)getTuwanOthersDataOfAid:(NSString *)aid CompletionHandle:(void(^)(NSArray<TuWanOthersModel*> *model, NSError *error))completionHandle;
++ (id)getTuwanOthersDataOfAid:(NSString *)aid CompletionHandle:(void(^)(NSArray<TuWanVideoModel*> *model, NSError *error))completionHandle;
+
++ (id)getTuwanPicDataOfAid:(NSString *)aid CompletionHandle:(void(^)(TuWanPicModel *model, NSError *error))completionHandle;
 
 @end

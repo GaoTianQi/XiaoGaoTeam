@@ -10,6 +10,8 @@
 
 @interface LeftViewController ()
 
+@property (nonatomic, strong) UIImageView *imageView;
+
 @end
 
 @implementation LeftViewController
