@@ -7,6 +7,7 @@
 //
 
 #import "TuWanHtmlViewController.h"
+#import "SearchDetailViewController.h"
 
 @interface TuWanHtmlViewController ()<UIWebViewDelegate>
 
@@ -46,7 +47,8 @@
     
 }
 
-#pragma mark - 
+#pragma mark - UIWebViewDelegate
+
 - (void)webViewDidStartLoad:(UIWebView *)webView
 {
     [self showProgress]; // 旋转提示

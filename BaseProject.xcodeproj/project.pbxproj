@@ -63,6 +63,8 @@
 		3886C0AE1BD749A00014E661 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3886C0AD1BD749A00014E661 /* LaunchScreen.xib */; };
 		3886C0BB1BD74AE90014E661 /* BaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3886C0BA1BD74AE90014E661 /* BaseViewModel.m */; };
 		3886C0C11BD74B090014E661 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3886C0C01BD74B090014E661 /* BaseModel.m */; };
+		9352D07D1BF3223B00D83EA4 /* BestGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9352D07C1BF3223B00D83EA4 /* BestGroupCell.m */; };
+		9352D0801BF34C5700D83EA4 /* BestGroupDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9352D07F1BF34C5700D83EA4 /* BestGroupDetailCell.m */; };
 		935D2A671BF07332001B995B /* XiMaCategroyViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 935D2A661BF07332001B995B /* XiMaCategroyViewModel.m */; };
 		936DF6BB1BF09833002AD14C /* XiMaAlbumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 936DF6BA1BF09833002AD14C /* XiMaAlbumCell.m */; };
 		937250D11BF1DF7D003E2D51 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 937250D01BF1DF7D003E2D51 /* AVFoundation.framework */; };
@@ -115,6 +117,14 @@
 		93EDC9871BF02F0900F9B126 /* TuWanPicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EDC9861BF02F0900F9B126 /* TuWanPicViewController.m */; };
 		93EDC98A1BF0413C00F9B126 /* TuWanVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EDC9891BF0413C00F9B126 /* TuWanVideoModel.m */; };
 		93EDC98D1BF049C500F9B126 /* XiMaCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EDC98C1BF049C500F9B126 /* XiMaCategoryCell.m */; };
+		93F758841BF2CE5B00A8556A /* HeroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F758831BF2CE5B00A8556A /* HeroViewController.m */; };
+		93F758871BF2CE9000A8556A /* BaiKeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F758861BF2CE9000A8556A /* BaiKeViewController.m */; };
+		93F7588A1BF2CEBA00A8556A /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F758891BF2CEBA00A8556A /* SearchViewController.m */; };
+		93F7588D1BF2D93A00A8556A /* SearchDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F7588C1BF2D93A00A8556A /* SearchDetailViewController.m */; };
+		93F758901BF2E74600A8556A /* ToolMenuViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F7588F1BF2E74600A8556A /* ToolMenuViewModel.m */; };
+		93F758931BF316D100A8556A /* BestGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F758921BF316D100A8556A /* BestGroupViewController.m */; };
+		93F758961BF3195400A8556A /* BestGroupDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F758951BF3195400A8556A /* BestGroupDetailViewController.m */; };
+		93F758991BF31C4700A8556A /* BestGroupViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F758981BF31C4700A8556A /* BestGroupViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -208,6 +218,10 @@
 		3886C0C21BD74B430014E661 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		4329DABFE5AD654FE71597C9 /* Pods-BaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		5EAAD623A23724C816F8DC02 /* libPods-BaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9352D07B1BF3223B00D83EA4 /* BestGroupCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestGroupCell.h; sourceTree = "<group>"; };
+		9352D07C1BF3223B00D83EA4 /* BestGroupCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BestGroupCell.m; sourceTree = "<group>"; };
+		9352D07E1BF34C5700D83EA4 /* BestGroupDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestGroupDetailCell.h; sourceTree = "<group>"; };
+		9352D07F1BF34C5700D83EA4 /* BestGroupDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BestGroupDetailCell.m; sourceTree = "<group>"; };
 		935D2A651BF07332001B995B /* XiMaCategroyViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiMaCategroyViewModel.h; sourceTree = "<group>"; };
 		935D2A661BF07332001B995B /* XiMaCategroyViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiMaCategroyViewModel.m; sourceTree = "<group>"; };
 		936DF6B91BF09833002AD14C /* XiMaAlbumCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiMaAlbumCell.h; sourceTree = "<group>"; };
@@ -314,6 +328,22 @@
 		93EDC9891BF0413C00F9B126 /* TuWanVideoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanVideoModel.m; sourceTree = "<group>"; };
 		93EDC98B1BF049C500F9B126 /* XiMaCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiMaCategoryCell.h; sourceTree = "<group>"; };
 		93EDC98C1BF049C500F9B126 /* XiMaCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiMaCategoryCell.m; sourceTree = "<group>"; };
+		93F758821BF2CE5B00A8556A /* HeroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroViewController.h; sourceTree = "<group>"; };
+		93F758831BF2CE5B00A8556A /* HeroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroViewController.m; sourceTree = "<group>"; };
+		93F758851BF2CE9000A8556A /* BaiKeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiKeViewController.h; sourceTree = "<group>"; };
+		93F758861BF2CE9000A8556A /* BaiKeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaiKeViewController.m; sourceTree = "<group>"; };
+		93F758881BF2CEBA00A8556A /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		93F758891BF2CEBA00A8556A /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		93F7588B1BF2D93A00A8556A /* SearchDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchDetailViewController.h; sourceTree = "<group>"; };
+		93F7588C1BF2D93A00A8556A /* SearchDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchDetailViewController.m; sourceTree = "<group>"; };
+		93F7588E1BF2E74600A8556A /* ToolMenuViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolMenuViewModel.h; sourceTree = "<group>"; };
+		93F7588F1BF2E74600A8556A /* ToolMenuViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolMenuViewModel.m; sourceTree = "<group>"; };
+		93F758911BF316D100A8556A /* BestGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestGroupViewController.h; sourceTree = "<group>"; };
+		93F758921BF316D100A8556A /* BestGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BestGroupViewController.m; sourceTree = "<group>"; };
+		93F758941BF3195400A8556A /* BestGroupDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestGroupDetailViewController.h; sourceTree = "<group>"; };
+		93F758951BF3195400A8556A /* BestGroupDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BestGroupDetailViewController.m; sourceTree = "<group>"; };
+		93F758971BF31C4700A8556A /* BestGroupViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestGroupViewModel.h; sourceTree = "<group>"; };
+		93F758981BF31C4700A8556A /* BestGroupViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BestGroupViewModel.m; sourceTree = "<group>"; };
 		DD4F0750B5DAAA87BA236B31 /* Pods-BaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -628,6 +658,10 @@
 				936DF6BA1BF09833002AD14C /* XiMaAlbumCell.m */,
 				937250D21BF1DFB4003E2D51 /* PlayView.h */,
 				937250D31BF1DFB4003E2D51 /* PlayView.m */,
+				9352D07B1BF3223B00D83EA4 /* BestGroupCell.h */,
+				9352D07C1BF3223B00D83EA4 /* BestGroupCell.m */,
+				9352D07E1BF34C5700D83EA4 /* BestGroupDetailCell.h */,
+				9352D07F1BF34C5700D83EA4 /* BestGroupDetailCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -689,6 +723,18 @@
 			children = (
 				93981AE51BEB06AA009BA515 /* DuoWanTabBarController.h */,
 				93981AE61BEB06AA009BA515 /* DuoWanTabBarController.m */,
+				93F758821BF2CE5B00A8556A /* HeroViewController.h */,
+				93F758831BF2CE5B00A8556A /* HeroViewController.m */,
+				93F758851BF2CE9000A8556A /* BaiKeViewController.h */,
+				93F758861BF2CE9000A8556A /* BaiKeViewController.m */,
+				93F758881BF2CEBA00A8556A /* SearchViewController.h */,
+				93F758891BF2CEBA00A8556A /* SearchViewController.m */,
+				93F7588B1BF2D93A00A8556A /* SearchDetailViewController.h */,
+				93F7588C1BF2D93A00A8556A /* SearchDetailViewController.m */,
+				93F758911BF316D100A8556A /* BestGroupViewController.h */,
+				93F758921BF316D100A8556A /* BestGroupViewController.m */,
+				93F758941BF3195400A8556A /* BestGroupDetailViewController.h */,
+				93F758951BF3195400A8556A /* BestGroupDetailViewController.m */,
 			);
 			path = "多玩盒子";
 			sourceTree = "<group>";
@@ -731,6 +777,10 @@
 		93981AE11BEB05FE009BA515 /* 多玩盒子 */ = {
 			isa = PBXGroup;
 			children = (
+				93F7588E1BF2E74600A8556A /* ToolMenuViewModel.h */,
+				93F7588F1BF2E74600A8556A /* ToolMenuViewModel.m */,
+				93F758971BF31C4700A8556A /* BestGroupViewModel.h */,
+				93F758981BF31C4700A8556A /* BestGroupViewModel.m */,
 			);
 			path = "多玩盒子";
 			sourceTree = "<group>";
@@ -1008,13 +1058,16 @@
 				3804CE541BD758F10046C8C8 /* NSString+QRCode.m in Sources */,
 				937250D41BF1DFB4003E2D51 /* PlayView.m in Sources */,
 				93EDC98A1BF0413C00F9B126 /* TuWanVideoModel.m in Sources */,
+				93F758961BF3195400A8556A /* BestGroupDetailViewController.m in Sources */,
 				93981B7C1BEB2863009BA515 /* ItemDetailModel.m in Sources */,
 				93981B7A1BEB2863009BA515 /* HeroVideoModel.m in Sources */,
 				93981AED1BEB0730009BA515 /* MyInfoViewController.m in Sources */,
 				3885C8FA1BE8E96A009441EA /* PSCollectionViewCell.m in Sources */,
 				93EDC98D1BF049C500F9B126 /* XiMaCategoryCell.m in Sources */,
+				9352D0801BF34C5700D83EA4 /* BestGroupDetailCell.m in Sources */,
 				939076CA1BF0CA0700DB52FA /* AlbumDetailViewController.m in Sources */,
 				93981AF01BEB0764009BA515 /* RankListViewController.m in Sources */,
+				93F758991BF31C4700A8556A /* BestGroupViewModel.m in Sources */,
 				93EDC9871BF02F0900F9B126 /* TuWanPicViewController.m in Sources */,
 				3804CE531BD758F10046C8C8 /* NSString+PJR.m in Sources */,
 				93752EB31BEC48690040CC6A /* WMProgressView.m in Sources */,
@@ -1037,18 +1090,23 @@
 				93752E9F1BEC37310040CC6A /* TuWanListCell.m in Sources */,
 				93AF205E1BEC9601009E1975 /* TuWanHtmlViewController.m in Sources */,
 				93981B7B1BEB2863009BA515 /* HeroWeekDataModel.m in Sources */,
+				93F7588D1BF2D93A00A8556A /* SearchDetailViewController.m in Sources */,
 				93981AF61BEB07E8009BA515 /* LeftViewController.m in Sources */,
 				935D2A671BF07332001B995B /* XiMaCategroyViewModel.m in Sources */,
 				93981B761BEB2863009BA515 /* HeroCZModel.m in Sources */,
 				3804CE511BD758F10046C8C8 /* AppDelegate+Category.m in Sources */,
+				93F758901BF2E74600A8556A /* ToolMenuViewModel.m in Sources */,
 				93981AFF1BEB274B009BA515 /* BaseNetManager.m in Sources */,
 				3886C0BB1BD74AE90014E661 /* BaseViewModel.m in Sources */,
 				93981AE71BEB06AA009BA515 /* DuoWanTabBarController.m in Sources */,
+				93F758931BF316D100A8556A /* BestGroupViewController.m in Sources */,
 				93752EA21BEC41950040CC6A /* TuWanImageCell.m in Sources */,
+				9352D07D1BF3223B00D83EA4 /* BestGroupCell.m in Sources */,
 				3885C8FB1BE8E96A009441EA /* README.md in Sources */,
 				93D321021BEB3C5F007A6704 /* RankingModel.m in Sources */,
 				93981B831BEB2863009BA515 /* TuWanModel.m in Sources */,
 				93752E701BEB44140040CC6A /* AllHeroModel.m in Sources */,
+				93F758871BF2CE9000A8556A /* BaiKeViewController.m in Sources */,
 				93EDC9841BF02A3700F9B126 /* TuWanPicModel.m in Sources */,
 				93981B001BEB274B009BA515 /* DuoWanNetManager.m in Sources */,
 				93981B741BEB2863009BA515 /* GifiModel.m in Sources */,
@@ -1056,6 +1114,7 @@
 				3886C0C11BD74B090014E661 /* BaseModel.m in Sources */,
 				93981B021BEB274B009BA515 /* XMLYNetManager.m in Sources */,
 				93752E731BEB44840040CC6A /* Factory.m in Sources */,
+				93F7588A1BF2CEBA00A8556A /* SearchViewController.m in Sources */,
 				93752EB01BEC48690040CC6A /* WMFooldView.m in Sources */,
 				93981B801BEB2863009BA515 /* ToolMenuModel.m in Sources */,
 				93981AEA1BEB06FF009BA515 /* TuWanViewController.m in Sources */,
@@ -1065,6 +1124,7 @@
 				3886C0981BD748830014E661 /* main.m in Sources */,
 				93EDC9811BF029EC00F9B126 /* TuWanPicViewModel.m in Sources */,
 				93752EB21BEC48690040CC6A /* WMMenuView.m in Sources */,
+				93F758841BF2CE5B00A8556A /* HeroViewController.m in Sources */,
 				3804CE521BD758F10046C8C8 /* NSObject+Common.m in Sources */,
 				93752EB11BEC48690040CC6A /* WMMenuItem.m in Sources */,
 				939076C71BF0C0A400DB52FA /* XiMaAlbumViewModel.m in Sources */,

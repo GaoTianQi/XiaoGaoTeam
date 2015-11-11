@@ -64,6 +64,9 @@
         _sideMenu.backgroundImage = [UIImage imageNamed:@"10979715_0800"];
         //  隐藏菜单的现实栏
         _sideMenu.menuPrefersStatusBarHidden = YES;
+        
+        // 不允许菜单栏缩小到边缘还可以继续缩小
+        _sideMenu.bouncesHorizontally = NO;
     }
     return _sideMenu;
 }

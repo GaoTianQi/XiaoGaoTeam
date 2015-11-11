@@ -10,6 +10,7 @@
 #import <NSString+Icons.h>
 #import "RankListViewController.h"
 #import "TuWanViewController.h"
+#import "DuoWanTabBarController.h"
 
 @interface LeftViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -34,6 +35,8 @@
         [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"Cell"];
         _tableView.tableFooterView = [UIView new];
         _tableView.backgroundColor = [UIColor clearColor];
+//   去除分割线
+        _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
         [self.view addSubview:_tableView];
         [_tableView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.size.mas_equalTo(CGSizeMake(kWindowW/2, kWindowH/2));
@@ -77,6 +80,10 @@
             
         case 1:
             [self.sideMenuViewController setContentViewController:[RankListViewController defaultNavi] animated:YES];
+            [self.sideMenuViewController hideMenuViewController];
+            break;
+        case 2:
+            [self.sideMenuViewController setContentViewController:[DuoWanTabBarController standardInstance] animated:YES];
             [self.sideMenuViewController hideMenuViewController];
             break;
             
