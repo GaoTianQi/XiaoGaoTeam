@@ -24,7 +24,7 @@
 #define kHeroWeekDataPath @"http://183.61.12.108/apiHeroWeekData.php" // 一周数据
 #define kToolMenuPath @"http://box.dwstatic.com/apiToolMenu.php" // 游戏百科列表
 #define kZBCategoryPath @"http://lolbox.duowan.com/phone/apiZBCategory.php" // 装备分类
-#define kZBItemPath @"http://lolbox.duowan.com/phone/apiZBItemList.php" // 某分类装备分类
+#define kZBItemPath @"http://lolbox.duowan.com/phone/apiZBItemList.php?" // 某分类装备分类
 #define kZBItemDetailPath @"http://lolbox.duowan.com/phone/apiItemDetail.php"  // 装备详情
 #define kGiftPath @"http://lolbox.duowan.com/phone/apiGift.php" // 天赋
 #define kRunePath @"http://lolbox.duowan.com/phone/apiRunes.php" // 符文列表
@@ -126,7 +126,7 @@
 // 某装备分类
 + (id)getZbItemModelOfTag:(NSString *)tag CompletionHandle:(void(^)(NSArray<ZBItemModel *> *models, NSError *error))completionHandle
 {
-    NSDictionary *params = @{@"tag":tag, kV, kOSType, kVersionName};
+    NSDictionary *params = @{@"tag": tag, kV, kOSType, kVersionName};
     return [DuoWanNetManager GET:kZBItemPath parameters:params completionHandler:^(id responseObj, NSError *error) {
         completionHandle([ZBItemModel objectArrayWithKeyValuesArray:responseObj], error);
     }];

@@ -110,6 +110,10 @@
 		93981B831BEB2863009BA515 /* TuWanModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 93981B6F1BEB2863009BA515 /* TuWanModel.m */; };
 		93AF205B1BEC7D23009E1975 /* TRImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AF205A1BEC7D23009E1975 /* TRImageView.m */; };
 		93AF205E1BEC9601009E1975 /* TuWanHtmlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AF205D1BEC9601009E1975 /* TuWanHtmlViewController.m */; };
+		93C11D0C1BF42E2D00AFA730 /* ZBCategroyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C11D0B1BF42E2D00AFA730 /* ZBCategroyViewController.m */; };
+		93C11D0F1BF42EC200AFA730 /* ZBCategoryViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C11D0E1BF42EC200AFA730 /* ZBCategoryViewModel.m */; };
+		93C11D121BF433AD00AFA730 /* ZBItemViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C11D111BF433AD00AFA730 /* ZBItemViewModel.m */; };
+		93C11D151BF4370900AFA730 /* ZBItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C11D141BF4370900AFA730 /* ZBItemViewController.m */; };
 		93D321021BEB3C5F007A6704 /* RankingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D320FE1BEB3C5F007A6704 /* RankingModel.m */; };
 		93D321031BEB3C5F007A6704 /* AlbumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D321001BEB3C5F007A6704 /* AlbumModel.m */; };
 		93EDC9811BF029EC00F9B126 /* TuWanPicViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EDC9801BF029EC00F9B126 /* TuWanPicViewModel.m */; };
@@ -313,6 +317,14 @@
 		93AF205A1BEC7D23009E1975 /* TRImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRImageView.m; sourceTree = "<group>"; };
 		93AF205C1BEC9601009E1975 /* TuWanHtmlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanHtmlViewController.h; sourceTree = "<group>"; };
 		93AF205D1BEC9601009E1975 /* TuWanHtmlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanHtmlViewController.m; sourceTree = "<group>"; };
+		93C11D0A1BF42E2D00AFA730 /* ZBCategroyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBCategroyViewController.h; sourceTree = "<group>"; };
+		93C11D0B1BF42E2D00AFA730 /* ZBCategroyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBCategroyViewController.m; sourceTree = "<group>"; };
+		93C11D0D1BF42EC200AFA730 /* ZBCategoryViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBCategoryViewModel.h; sourceTree = "<group>"; };
+		93C11D0E1BF42EC200AFA730 /* ZBCategoryViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBCategoryViewModel.m; sourceTree = "<group>"; };
+		93C11D101BF433AD00AFA730 /* ZBItemViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBItemViewModel.h; sourceTree = "<group>"; };
+		93C11D111BF433AD00AFA730 /* ZBItemViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBItemViewModel.m; sourceTree = "<group>"; };
+		93C11D131BF4370900AFA730 /* ZBItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBItemViewController.h; sourceTree = "<group>"; };
+		93C11D141BF4370900AFA730 /* ZBItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBItemViewController.m; sourceTree = "<group>"; };
 		93D320FD1BEB3C5F007A6704 /* RankingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankingModel.h; sourceTree = "<group>"; };
 		93D320FE1BEB3C5F007A6704 /* RankingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankingModel.m; sourceTree = "<group>"; };
 		93D320FF1BEB3C5F007A6704 /* AlbumModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumModel.h; sourceTree = "<group>"; };
@@ -735,6 +747,10 @@
 				93F758921BF316D100A8556A /* BestGroupViewController.m */,
 				93F758941BF3195400A8556A /* BestGroupDetailViewController.h */,
 				93F758951BF3195400A8556A /* BestGroupDetailViewController.m */,
+				93C11D0A1BF42E2D00AFA730 /* ZBCategroyViewController.h */,
+				93C11D0B1BF42E2D00AFA730 /* ZBCategroyViewController.m */,
+				93C11D131BF4370900AFA730 /* ZBItemViewController.h */,
+				93C11D141BF4370900AFA730 /* ZBItemViewController.m */,
 			);
 			path = "多玩盒子";
 			sourceTree = "<group>";
@@ -781,6 +797,10 @@
 				93F7588F1BF2E74600A8556A /* ToolMenuViewModel.m */,
 				93F758971BF31C4700A8556A /* BestGroupViewModel.h */,
 				93F758981BF31C4700A8556A /* BestGroupViewModel.m */,
+				93C11D0D1BF42EC200AFA730 /* ZBCategoryViewModel.h */,
+				93C11D0E1BF42EC200AFA730 /* ZBCategoryViewModel.m */,
+				93C11D101BF433AD00AFA730 /* ZBItemViewModel.h */,
+				93C11D111BF433AD00AFA730 /* ZBItemViewModel.m */,
 			);
 			path = "多玩盒子";
 			sourceTree = "<group>";
@@ -1066,6 +1086,7 @@
 				93EDC98D1BF049C500F9B126 /* XiMaCategoryCell.m in Sources */,
 				9352D0801BF34C5700D83EA4 /* BestGroupDetailCell.m in Sources */,
 				939076CA1BF0CA0700DB52FA /* AlbumDetailViewController.m in Sources */,
+				93C11D121BF433AD00AFA730 /* ZBItemViewModel.m in Sources */,
 				93981AF01BEB0764009BA515 /* RankListViewController.m in Sources */,
 				93F758991BF31C4700A8556A /* BestGroupViewModel.m in Sources */,
 				93EDC9871BF02F0900F9B126 /* TuWanPicViewController.m in Sources */,
@@ -1077,6 +1098,7 @@
 				3886C09B1BD748830014E661 /* AppDelegate.m in Sources */,
 				93752E9C1BEC36AA0040CC6A /* TuWanListViewController.m in Sources */,
 				93981B781BEB2863009BA515 /* HeroGiftModel.m in Sources */,
+				93C11D0F1BF42EC200AFA730 /* ZBCategoryViewModel.m in Sources */,
 				93981B821BEB2863009BA515 /* ZBItemModel.m in Sources */,
 				93981B721BEB2863009BA515 /* BestGroupModel.m in Sources */,
 				93981B7F1BEB2863009BA515 /* SumAbilityModel.m in Sources */,
@@ -1088,6 +1110,7 @@
 				93981B811BEB2863009BA515 /* ZBCategoryModel.m in Sources */,
 				936DF6BB1BF09833002AD14C /* XiMaAlbumCell.m in Sources */,
 				93752E9F1BEC37310040CC6A /* TuWanListCell.m in Sources */,
+				93C11D151BF4370900AFA730 /* ZBItemViewController.m in Sources */,
 				93AF205E1BEC9601009E1975 /* TuWanHtmlViewController.m in Sources */,
 				93981B7B1BEB2863009BA515 /* HeroWeekDataModel.m in Sources */,
 				93F7588D1BF2D93A00A8556A /* SearchDetailViewController.m in Sources */,
@@ -1103,6 +1126,7 @@
 				93752EA21BEC41950040CC6A /* TuWanImageCell.m in Sources */,
 				9352D07D1BF3223B00D83EA4 /* BestGroupCell.m in Sources */,
 				3885C8FB1BE8E96A009441EA /* README.md in Sources */,
+				93C11D0C1BF42E2D00AFA730 /* ZBCategroyViewController.m in Sources */,
 				93D321021BEB3C5F007A6704 /* RankingModel.m in Sources */,
 				93981B831BEB2863009BA515 /* TuWanModel.m in Sources */,
 				93752E701BEB44140040CC6A /* AllHeroModel.m in Sources */,

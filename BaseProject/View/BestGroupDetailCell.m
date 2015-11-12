@@ -12,11 +12,12 @@
 
 - (TRImageView *)heroIV {
     if(_heroIV == nil) {
+        CGFloat width = (kWindowW - 6*13)/5.0;
         _heroIV = [[TRImageView alloc] init];
         [self.contentView addSubview:_heroIV];
         [_heroIV mas_makeConstraints:^(MASConstraintMaker *make) {
             make.top.left.mas_equalTo(10);
-            make.size.mas_equalTo(CGSizeMake(50, 50));
+            make.size.mas_equalTo(CGSizeMake(width, width));
         }];
     }
     return _heroIV;

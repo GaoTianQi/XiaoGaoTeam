@@ -10,6 +10,7 @@
 #import "ToolMenuViewModel.h"
 #import "TuWanHtmlViewController.h"
 #import "BestGroupViewController.h"
+#import "ZBCategroyViewController.h"
 
 @interface ToolMenuCell : UITableViewCell
 
@@ -142,6 +143,9 @@ kRemoveCellSeparator
     }else{
         if (indexPath.row == 3) {
             BestGroupViewController *vc = [[BestGroupViewController alloc]init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }else if (indexPath.row == 0){
+            ZBCategroyViewController *vc = [[ZBCategroyViewController alloc]init];
             [self.navigationController pushViewController:vc animated:YES];
         }
     }

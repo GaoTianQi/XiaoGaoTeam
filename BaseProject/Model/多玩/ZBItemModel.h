@@ -10,7 +10,7 @@
 
 @interface ZBItemModel : BaseModel
 
-@property (nonatomic, assign) double identifier;
+@property (nonatomic, assign) double identify;
 @property (nonatomic, strong) NSString *text;
 
 @end

@@ -42,19 +42,19 @@
         UIView *lastView = nil;
         for (int i = 0; i < 5; i++) {
             TRImageView *imageView = [[TRImageView alloc]init];
-            CGFloat margin = (kWindowW - 5*50)/6.0;
+            CGFloat width = (kWindowW - 6*13)/5.0;
             [self.contentView addSubview:imageView];
             [imageView mas_makeConstraints:^(MASConstraintMaker *make) {
                 if (i == 0) {
-                    make.left.mas_equalTo(margin);
+                    make.left.mas_equalTo(13);
                 }else{
-                    make.left.mas_equalTo(lastView.mas_right).mas_equalTo(margin);
+                    make.left.mas_equalTo(lastView.mas_right).mas_equalTo(13);
                 }
                 make.top.mas_equalTo(self.titleLb.mas_bottom).mas_equalTo(10);
                 make.bottom.mas_equalTo(self.descLb.mas_top).mas_equalTo(-10);
-                make.size.mas_equalTo(CGSizeMake(50, 50));
+                make.size.mas_equalTo(CGSizeMake(width, width));
                 if (i == 4) {
-                    make.right.mas_equalTo(-margin);
+                    make.right.mas_equalTo(-13);
                 }
             }];
             lastView = imageView;
@@ -76,8 +76,9 @@
         [_descLb mas_makeConstraints:^(MASConstraintMaker *make) {
             make.leftMargin.mas_equalTo(self.titleLb);
             make.bottom.right.mas_equalTo(-10);
-            make.height.mas_equalTo(40);
+            //make.height.mas_equalTo(40);
         }];
+        _descLb.numberOfLines = 2;
     }
     return _descLb;
 }

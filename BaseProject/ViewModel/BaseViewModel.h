@@ -7,6 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DuoWanNetManager.h"
+#import "TuWanNetManager.h"
+#import "XMLYNetManager.h"
 
 typedef void(^CompletionHandle)(NSError *error);
 

@@ -23,6 +23,7 @@
 @property (nonatomic, strong) TRImageView *heroIV4;
 @property (nonatomic, strong) TRImageView *heroIV5;
 
+
 /** 团队简介 */
 @property (nonatomic, strong) UILabel *descLb;
 

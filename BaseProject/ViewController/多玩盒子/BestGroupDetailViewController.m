@@ -78,6 +78,7 @@
         }
         cell.titleLb.text = self.titleName;
         cell.descLb.text = self.descArr[0];
+        cell.descLb.numberOfLines = 0;
     return cell;
     }else{
         BestGroupDetailCell *cell = [tableView dequeueReusableCellWithIdentifier:@"DetailCell"];
